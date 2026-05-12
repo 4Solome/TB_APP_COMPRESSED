@@ -8,7 +8,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
 
-from ttvae_model import TTVAE
+from app.ttvae_model import TTVAE
 
 device = torch.device("cpu")
 
