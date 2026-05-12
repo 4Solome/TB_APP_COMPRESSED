@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import torch
 
-from utils import (
+from app.utils import (
     load_feature_names,
     load_feature_to_modality,
     load_model_config,
